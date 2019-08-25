@@ -29,12 +29,14 @@ try{
 	  if(val=="log")logme=true;
 	});
 	if(logme){
+		/*
 		var bunyan = require("bunyan");
 		log = bunyan.createLogger({
 			name: 'demo_fints_logger',
 			stream: process.stdout,
 			level: 'trace'
 		});
+		*/
 	}
 }catch(ee){
 
